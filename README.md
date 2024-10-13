@@ -3,7 +3,7 @@
 Extension to Ultimate Member to delete Users who have not replied with an email activation after Registration either by a Plugin WP Cronjob or manual deletion by Site Admin from a dedicated WP All Users page.
 
 ## UM Settings -> General -> Users
-1. Delete Users with late Activation - Tick to activate deletion of Users with unreplied email activations by the plugin WP Cronjob.
+1. Delete Users with late Activation - Tick to activate deletion of Users with unreplied email activations by the plugin WP Cronjob. If the WP Cronjob is deactivated you can still do a manual User deletion via the link to WP All Users at the UM Dashboard modal.
 2. Admin User info email - Tick to activate an email with a deleted User list to Site Admin.
 3. Number of days to wait for Activation - Enter the number of days for accepting an email activation. Only values larger than zero are accepted and default value is 5 days.
 
