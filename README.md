@@ -20,9 +20,17 @@ Extension to Ultimate Member to delete Users who have not replied with an email 
 ## Site Admin email
 1. An email with User ID, Username, First name, Last name, User email, Registration date, Birthdate of the deleted Users by the Cronjob in HTML table format.
 
+## WP Cronjob
+1. Hook name: um_cron_delete_users_awaiting_email
+
 ## Translations or Text changes
 1. Use the "Say What?" plugin with text domain ultimate-member
 2. https://wordpress.org/plugins/say-what/
+
+## References
+1. WP Cronjob https://developer.wordpress.org/plugins/cron/
+2. Plugin "Advanced Cron Manager" https://wordpress.org/plugins/advanced-cron-manager/
+3. Plugin "WP Crontrol" https://wordpress.org/plugins/wp-crontrol/
 
 ## Updates
 None
