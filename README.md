@@ -1,6 +1,6 @@
 # UM Delete Users Awaiting email
 ## Release date Monday 2024-10-14
-Extension to Ultimate Member to delete Users who have not replied with an email activation after Registration either by a Plugin WP Cronjob or manual deletion by admin from dedicated WP All Users page.
+Extension to Ultimate Member to delete Users who have not replied with an email activation after Registration either by a Plugin WP Cronjob or manual deletion by Site Admin from a dedicated WP All Users page.
 
 ## UM Settings -> General -> Users
 1. Delete Users with late Activation - Tick to activate deletion of Users with unreplied email activations by the plugin WP Cronjob.
