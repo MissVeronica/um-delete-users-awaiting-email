@@ -12,7 +12,8 @@ Extension to Ultimate Member to Remind or Remove Users who have not replied with
 4. * UM Action Scheduler - Tick to disable sending the Activation emails via the UM Action Scheduler.
 5. * WP All Users filter - Tick to activate a WP All Users filter button for display of the late Users to remind and extra User list columns.
 6. * How often to search for expired activations - Tick to have the WP Cronjob look for qualified Users daily. Default is hourly. Daily is at noon with start from tomorrow
-7. * Wait between sending emails if not SMTP - Tick to add a WP Cronjob wait of five seconds between sending the notification emails to allow WP Mail to process the email transportation.
+7. * Max number of times to remind User - Enter the max number of times to remind a late Activation User. Default value is 3 times.
+8. * Wait between sending emails if not SMTP - Tick to add a WP Cronjob wait of five seconds between sending the notification emails to allow WP Mail to process the email transportation.
 8. * Email placeholder {reminder_text} text - Text to include in emails sent by the Remind WP Cronjob in other cases placeholder is empty. You can include other email placeholders in this text.
 9. * Email placeholder {reminder_text} last text - Text to include in the the last email sent by the Remind WP Cronjob before User is Removed. You can include other email placeholders in this text.
 
@@ -50,8 +51,8 @@ Extension to Ultimate Member to Remind or Remove Users who have not replied with
 ## Additional email placeholders
 1. {reminder_text} - Text for Late User Reminder email. Blank text for first sent Activation email at Registrations. Email placeholders allowed within the text message.  - Example: This email is a reminder for email activation of the Username {username}. Registered {registration_date}.
 2. {registration_date} - User Registration data and time
-3. {expiration_time} - current date and time for this User Registration or a Remind Activationwhen email Activation expires
-4. {expiration_days} - current number of days after this User Registration  or a Remind Activationwhen email Activation expires. Use {expiration_hours} for the last Reminder text.
+3. {expiration_time} - current date and time for this User Registration or a Remind Activation when email Activation expires
+4. {expiration_days} - current number of days after this User Registration  or a Remind Activation when email Activation expires. Use {expiration_hours} for the last Reminder text.
 5. {expiration_hours} - current number of hours after this User Registration or a Remind Activation when email Activation expires. Reduced number of hours for last Reminder when User will be Removed.
 6. {max_reminders} - max number of reminders when "Remove late Activations" is inactive
 7. {removal_time} - current date and time for this User Registration when User is Removed
@@ -61,7 +62,7 @@ Extension to Ultimate Member to Remind or Remove Users who have not replied with
 
 ### Default {reminder_text} and translatable
 1. Email placeholder {reminder_text} text - This email is a reminder for Activation of your Account {username} Registered at {registration_date}.
-2. Email placeholder {reminder_text} last text - NOTE! This is our last reminder about activation of your Account. Your Account will be removed at {removal_time} {removal_days} days after your Registration.
+2. Email placeholder {reminder_text} last text - NOTE! This is our last reminder about activation of your Account. Your Account will be removed at {removal_time} which is  {removal_days} days after your Registration.
 
 ## WP Cronjobs
 1. Hook name Remind late Users: um_cron_remind_users_awaiting_email
