@@ -1,0 +1,608 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Users Awaiting Email Activation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-23 02:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+"X-Domain: awaiting-email-activation"
+
+#: um-delete-users-awaiting-email.php:576
+msgid "%d Users are close to email Activation expiry"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:893
+#, php-format
+msgid "%s removed from %s by the WP Cronjob %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:891
+#, php-format
+msgid "%s Users"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:650
+#, php-format
+msgid "%s Users are late with their email Activations"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1362
+#, php-format
+msgid "( to address %s )"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1054
+msgid "Account Activation Email"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1262
+msgid "Admin User info email"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:618
+msgid "All Late Users to Remind"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:696
+msgid "All Late Users to Remove"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:943
+msgid "Birthdate"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1279
+msgid "Date format placeholder {registration_date}"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1176
+#: um-delete-users-awaiting-email.php:1185
+msgid "Default:"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1198
+msgid "Delete Users Awaiting Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1027
+msgid "Documentation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:915
+msgid ""
+"Email notifications \"Delete Users Awaiting Email Activation\" sent to the "
+"Users"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1183
+msgid "Email placeholder {reminder_text} last text"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1174
+msgid "Email placeholder {reminder_text} text"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:679
+msgid "Email template"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1156
+msgid ""
+"Enter the max number of times to remind a late Activation User. Default "
+"value is 3 times."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1224
+msgid "Enter the number of days until removing a late email activation."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1280
+#, php-format
+msgid "Enter your custom date format. Default is WP site default format %s"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Extension to Ultimate Member to Remind or Remove Users who have not replied "
+"with an email Activation after Registration."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:802
+#, php-format
+msgid "Filter: Late Users to Remind at %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:792
+#, php-format
+msgid "Filter: Late Users to Remove registered before %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:939
+msgid "First name"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1026
+msgid "GitHub plugin documentation and download"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1143
+msgid "How often to search for expired activations"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1254
+msgid "How often to search for late Users"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/MissVeronica/um-delete-users-awaiting-email"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/MissVeronica?tab=repositories"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1215
+msgid ""
+"If the WP Cronjob is deactivated you can still do a manual User deletion via "
+"the link to WP All Users at the UM Dashboard modal."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:856
+#, php-format
+msgid "Invalid account status %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:904
+msgid ""
+"Invalid account status: User with a not expected account status and plugin "
+"rejected the User delete"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:940
+msgid "Last name"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:908
+msgid ""
+"List of Users removed due to not responding to their Account Activation "
+"email within %d days."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1064
+msgid "Login attempts by late Users"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1155
+msgid "Max number of times to remind User"
+msgstr ""
+
+#. Author of the plugin
+msgid "Miss Veronica"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:754
+#, php-format
+msgid "No active %s Users WP Cronjob"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:563
+msgid "No Users are close to email Activation expiry"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:637
+msgid "No Users are late with their email Activations"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:708
+msgid "Note"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:440
+#: um-delete-users-awaiting-email.php:1185
+msgid ""
+"NOTE! This is our last reminder about activation of your Account. Your "
+"Account will be removed at {removal_time} which is {removal_days} days after "
+"your Registration."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:944
+msgid "Notes"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1223
+msgid "Number of days to wait for Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:828
+msgid "OK"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:902
+msgid "OK: User delete verified"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:891
+msgid "One User"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:566
+msgid "One User is close to email Activation expiry"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:640
+msgid "One User is late with the email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1225
+msgid "Only values larger than zero are accepted and default value is %d days."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1029
+#, php-format
+msgid ""
+"Plugin \"Users Awaiting Email Activation\" version %s - tested with UM 2.9.2 "
+"- %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:678
+msgid "Plugin active email template: Delete Users Awaiting Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1197
+msgid "Plugin email template"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:901
+msgid "Plugin notes"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:718
+msgid "Plugin settings at UM Extensions"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:942
+msgid "Registration date"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1417
+msgid "Remind before"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:983
+#: um-delete-users-awaiting-email.php:1084
+msgid "Remind late Users"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1090
+msgid "Remind User before activation hash expires"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1421
+#, php-format
+msgid "Remove after %s days"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1004
+#: um-delete-users-awaiting-email.php:1207
+msgid "Remove late Users"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:709
+msgid ""
+"Remove the old UM code snippet function 'um_delete_users_awaiting_email' and "
+"the 'wp_schedule_event' code lines from your active theme's functions.php "
+"file."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1302
+msgid "Remove Users Awaiting Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1213
+msgid "Remove Users with late Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1070
+msgid "Resend Activation email at Login attempts"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1270
+msgid "Send User Notification email"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:720
+#: um-delete-users-awaiting-email.php:1115
+msgid "Settings"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1077
+msgid "Show User's email address in Login error"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1121
+msgid "Status"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1175
+msgid ""
+"Text to include in emails sent by the Remind WP Cronjob in other cases "
+"placeholder is empty. You can include other email placeholders in this text."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1184
+msgid ""
+"Text to include in the the last email sent by the Remind WP Cronjob before "
+"User is Removed. You can include other email placeholders in this text."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:747
+#, php-format
+msgid "The %s WP Cronjob has been waiting %d hours in the job queue"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:743
+#, php-format
+msgid "The %s WP Cronjob has been waiting %d minutes in the job queue"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:737
+#, php-format
+msgid "The %s WP Cronjob will execute next in about %d minutes"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:732
+#, php-format
+msgid "The %s WP Cronjob will execute next time at %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:710
+msgid "The code snippet WP Cronjob will be removed by this plugin."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:911
+#, php-format
+msgid "The Plugin WP Cronjob will execute next time at %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:582
+#, php-format
+msgid "These %s Users can be notified by yourself via the button link."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:656
+#, php-format
+msgid "These %s Users can be removed by yourself via the button link."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:579
+#, php-format
+msgid "These %s Users will be notified by the next Remind WP Cronjob."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:653
+#, php-format
+msgid "These %s Users will be removed by the next Remove WP Cronjob."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:443
+#: um-delete-users-awaiting-email.php:1176
+msgid ""
+"This email is a reminder for Activation of your Account {username} "
+"Registered at {registration_date}."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:572
+msgid "This User can be notified by yourself via the button link."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:646
+msgid "This User can be removed by yourself via the button link."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:569
+msgid "This User will be notified by the next Remind WP Cronjob."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:643
+msgid "This User will be removed by the next Remove WP Cronjob."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1263
+msgid ""
+"Tick to activate a summary email with a removed User list sent to Site Admin."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1247
+msgid ""
+"Tick to activate a WP All Users filter button for display of a late "
+"Activation Users list incl extra User list columns."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1136
+msgid ""
+"Tick to activate a WP All Users filter button for display of the late Users "
+"to remind and extra User list columns."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1214
+msgid ""
+"Tick to activate deletion of Users with unreplied email activations by the "
+"Plugin WP Cronjob."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1099
+msgid ""
+"Tick to activate the Remind late Users WP Cronjob status modal at the UM "
+"Dashboard."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1233
+msgid ""
+"Tick to activate the Remove late Users WP Cronjob status modal at the UM "
+"Dashboard."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1106
+#: um-delete-users-awaiting-email.php:1240
+msgid ""
+"Tick to activate the UM Resend of email Activation in WP Users Page columns "
+"and frontpage cog wheel except backend bulk Resend."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1166
+#: um-delete-users-awaiting-email.php:1288
+msgid ""
+"Tick to add a WP Cronjob wait of five seconds between sending the "
+"notification emails to allow WP Mail to process the email transportation."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1127
+msgid ""
+"Tick to disable sending the Activation emails via the UM Action Scheduler."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1091
+#, php-format
+msgid ""
+"Tick to enable resending of the %s if the secret hash will expire before "
+"next WP Cronjob search."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1144
+msgid ""
+"Tick to have the WP Cronjob look for qualified Users daily. Default is "
+"hourly. Daily is at noon with start from tomorrow"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1071
+#, php-format
+msgid ""
+"Tick to resend the %s template when User is trying to Login without email "
+"Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1255
+msgid ""
+"Tick to search for qualified Users weekly. Default is daily at midnight."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1271
+#, php-format
+msgid ""
+"Tick to send the \"%s\" to the User email if this email Notification is "
+"activated."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1078
+msgid ""
+"Tick to show the User's email address where we send the email Activation "
+"request."
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1305
+msgid ""
+"To send a custom notification email to the User when removed because of no "
+"email activation."
+msgstr ""
+
+#. Name of the plugin
+msgid "Ultimate Member - Users Awaiting Email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1126
+msgid "UM Action Scheduler"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1120
+msgid "UM Action Scheduler email status"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1114
+msgid "UM Action Scheduler settings"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1128
+#, php-format
+msgid "UM Action Scheduler: %s, %s"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1098
+#: um-delete-users-awaiting-email.php:1232
+msgid "UM Dashboard modal"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:603
+msgid "UM email template"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:602
+#: um-delete-users-awaiting-email.php:1053
+msgid "UM email template: Account Activation Email"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1105
+#: um-delete-users-awaiting-email.php:1239
+msgid "UM Resend email Activation"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1041
+msgid "UM Serttings"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:941
+msgid "User email"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:848
+msgid "User exists"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:903
+msgid "User exists: UM is unable to delete this User"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1413
+msgid "User registered"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:937
+msgid "UserID"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:938
+msgid "Username"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:617
+msgid "Users to be reminded by the next WP Cronjob"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:695
+msgid "Users to be removed by the next WP Cronjob"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1165
+#: um-delete-users-awaiting-email.php:1287
+msgid "Wait between sending emails if not SMTP"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1135
+#: um-delete-users-awaiting-email.php:1246
+msgid "WP All Users filter"
+msgstr ""
+
+#: um-delete-users-awaiting-email.php:1363
+#, php-format
+msgid ""
+"Your User Account is still awaiting email verification and we have now sent "
+"you a new email %s for your Account Activation."
+msgstr ""
