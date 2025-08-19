@@ -94,6 +94,8 @@ Version 2.0.0
 3. Additional WP All Users columns for User Registration, Email Activation expiry and also date and time for Removal of the late Activation User.
 4. Many new email placeholders incl a placeholder for the Remind user email template (UM default email Activation) text about why a Remind is being sent to the User.
 5. Login attempts by late Users will send a Reminder about Activation too.
+Version 2.0.1
+1. Fix for missing Extensions UM settings tab
 
 ## Installation & Updates
 1. Install and update by downloading the plugin ZIP file via the green "Code" button
