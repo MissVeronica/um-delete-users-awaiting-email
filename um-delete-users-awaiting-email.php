@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Ultimate Member - Users Awaiting Email Activation
  * Description:     Extension to Ultimate Member to Remind or Remove Users who have not replied with an email Activation after Registration.
- * Version:         2.0.0
+ * Version:         2.0.1
  * Requires PHP:    7.4
  * Author:          Miss Veronica
  * License:         GPL v2 or later
@@ -977,19 +977,14 @@ class Users_Awaiting_Email_Activation {
 
     public function settings_structure_remind_users_awaiting_email( $settings ) {
 
-        if ( isset( $_REQUEST['page'] ) && $_REQUEST['page'] == 'um_options' ) {
-            if ( isset( $_REQUEST['tab'] ) && $_REQUEST['tab'] == 'extensions' ) {
+        $settings['extensions']['sections']['remind-late-users']['title'] = esc_html__( 'Remind late Users', 'awaiting-email-activation' );
 
-                $settings['extensions']['sections']['remind-late-users']['title'] = esc_html__( 'Remind late Users', 'awaiting-email-activation' );
+        if ( ! isset( $_REQUEST['section'] ) || $_REQUEST['section'] == 'remind-late-users' ) {
 
-                if ( ! isset( $_REQUEST['section'] ) || $_REQUEST['section'] == 'remind-late-users' ) {
+            if ( ! isset( $settings['extensions']['sections']['remind-late-users']['fields'] ) ) {
 
-                    if ( ! isset( $settings['extensions']['sections']['remind-late-users']['fields'] ) ) {
-
-                        $settings['extensions']['sections']['remind-late-users']['description'] = $this->get_possible_plugin_update( 'um-email-activation' );
-                        $settings['extensions']['sections']['remind-late-users']['fields']      = $this->create_remind_settings_fields();
-                    }
-                }
+                $settings['extensions']['sections']['remind-late-users']['description'] = $this->get_possible_plugin_update( 'um-email-activation' );
+                $settings['extensions']['sections']['remind-late-users']['fields']      = $this->create_remind_settings_fields();
             }
         }
 
@@ -1515,6 +1510,3 @@ class Users_Awaiting_Email_Activation {
 }
 
 new Users_Awaiting_Email_Activation();
-
-
-
